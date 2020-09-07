@@ -10,6 +10,7 @@ import HookCounterOne from './components/HookCounterOne';
 import HookMouse from './components/HookMouse';
 import MouseContainer from './components/MouseContainer';
 import IntervalHookCounter from './components/IntervalHookCounter';
+import Conditional from './components/Conditional';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
           <HookCounterOne /><br /><br />
           <HookMouse /><br /><br />
           <MouseContainer /><br /><br />
-          <IntervalHookCounter/><br /><br />
+          <IntervalHookCounter /><br /><br />
+          <Conditional /><br />
     </div>
   );
 }
